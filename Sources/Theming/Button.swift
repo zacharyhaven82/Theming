@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Button: Codable, Sendable {
+public struct DefaultButton {
     public let height: Int
     public let minWidth: Int
     public let paddingHorizontal: Int
