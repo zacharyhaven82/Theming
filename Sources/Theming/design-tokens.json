@@ -2,7 +2,7 @@
   "colors": {
     "primary": "#007AFF",
     "secondary": "#34C759",
-    "background": "#FFFFFF",
+    "background": "#ffcccc",
     "surface": "#F2F2F7",
     "error": "#FF3B30",
     "onPrimary": "#FFFFFF",
