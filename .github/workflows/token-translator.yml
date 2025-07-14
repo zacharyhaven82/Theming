@@ -28,19 +28,19 @@ jobs:
     
       - name: Install token-transformer
         run: npm install token-transformer
-        working-directory: Token-Translation
+        working-directory: Sources/Token-Translation
       
       - name: Run token-transformer
         run: npx token-transformer tokens/design-tokens.json tokens/transformed-tokens.json
-        working-directory: Token-Translation
+        working-directory: Sources/Token-Translation
 
       - name: Install style-dictionary
         run: npm install -D style-dictionary
-        working-directory: Token-Translation
+        working-directory: Sources/Token-Translation
 
       - name: Run style-dictionary
         run: npx style-dictionary build
-        working-directory: Token-Translation
+        working-directory: Sources/Token-Translation
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
