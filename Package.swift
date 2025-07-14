@@ -16,7 +16,8 @@ let package = Package(
         // Targets can depend on other targets in this package and products from dependencies.
         .target(
             name: "Theming",
-            resources: [.copy("Mocks/design-tokens.mock.json")]),
+            resources: [.copy("design-tokens.json"),
+                        .copy("Mocks/design-tokens.mock.json")]),
         .testTarget(
             name: "ThemingTests",
             dependencies: ["Theming"]
