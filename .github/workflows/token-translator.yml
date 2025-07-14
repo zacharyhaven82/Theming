@@ -41,6 +41,38 @@ jobs:
       - name: Run style-dictionary
         run: npx style-dictionary build
         working-directory: Sources/Token-Translation/
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "public static let tokenSetOrder0 = core"
+          replace: " "
+          include: "Sources/Theming/**"
+          regex: false
+          
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "public static let tokenSetOrder1 = light"
+          replace: " "
+          include: "Sources/Theming/**"
+          regex: false
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "public static let tokenSetOrder2 = theme"
+          replace: " "
+          include: "Sources/Theming/**"
+          regex: false
+
+      - name: Find and Replace
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: "public enum {"
+          replace: "public enum StyleDictionaryEnum {"
+          include: "Sources/Theming/**"
+          regex: false
       
       - name: Commit changes
         uses: EndBug/add-and-commit@v9
