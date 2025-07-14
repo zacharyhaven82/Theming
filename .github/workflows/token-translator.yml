@@ -44,6 +44,7 @@ jobs:
 
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
+        working-directory: Sources/
         with:
           find: "public static let tokenSetOrder0 = core"
           replace: " "
@@ -52,6 +53,7 @@ jobs:
           
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
+        working-directory: Sources/
         with:
           find: "public static let tokenSetOrder1 = light"
           replace: " "
@@ -60,6 +62,7 @@ jobs:
 
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
+        working-directory: Sources/
         with:
           find: "public static let tokenSetOrder2 = theme"
           replace: " "
@@ -68,6 +71,7 @@ jobs:
 
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
+        working-directory: Sources/
         with:
           find: "public enum {"
           replace: "public enum StyleDictionaryEnum {"
