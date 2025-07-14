@@ -608,7 +608,7 @@
     },
     "accent": {
       "default": {
-        "value": "{colors.indigo.400}",
+        "value": "{colors.indigo.500}",
         "type": "color"
       },
       "onAccent": {
