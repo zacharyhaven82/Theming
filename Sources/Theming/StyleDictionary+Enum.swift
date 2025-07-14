@@ -8,7 +8,7 @@
 
 import UIKit
 
-public enum {
+public enum StyleDictionaryEnum {
     public static let accentBg = UIColor(red: 0.765, green: 0.855, blue: 0.996, alpha: 1)
     public static let accentDefault = UIColor(red: 0.498, green: 0.612, blue: 0.961, alpha: 1)
     public static let accentOnAccent = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
@@ -118,7 +118,7 @@ public enum {
     public static let fgMuted = UIColor(red: 0.290, green: 0.333, blue: 0.408, alpha: 1)
     public static let fgSubtle = UIColor(red: 0.627, green: 0.682, blue: 0.753, alpha: 1)
     public static let shadowsDefault = UIColor(red: 0.102, green: 0.125, blue: 0.173, alpha: 1)
-    public static let tokenSetOrder0 = core
-    public static let tokenSetOrder1 = light
-    public static let tokenSetOrder2 = theme
+     
+     
+     
 }
