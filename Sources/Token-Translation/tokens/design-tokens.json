@@ -1,58 +1,5 @@
 {
   "core": {
-    "dimension": {
-      "scale": {
-        "value": "2",
-        "type": "dimension"
-      },
-      "xs": {
-        "value": "4",
-        "type": "dimension"
-      },
-      "sm": {
-        "value": "{dimension.xs} * {dimension.scale}",
-        "type": "dimension"
-      },
-      "md": {
-        "value": "{dimension.sm} * {dimension.scale}",
-        "type": "dimension"
-      },
-      "lg": {
-        "value": "{dimension.md} * {dimension.scale}",
-        "type": "dimension"
-      },
-      "xl": {
-        "value": "{dimension.lg} * {dimension.scale}",
-        "type": "dimension"
-      }
-    },
-    "spacing": {
-      "xs": {
-        "value": "{dimension.xs}",
-        "type": "spacing"
-      },
-      "sm": {
-        "value": "{dimension.sm}",
-        "type": "spacing"
-      },
-      "md": {
-        "value": "{dimension.md}",
-        "type": "spacing"
-      },
-      "lg": {
-        "value": "{dimension.lg}",
-        "type": "spacing"
-      },
-      "xl": {
-        "value": "{dimension.xl}",
-        "type": "spacing"
-      },
-      "multi-value": {
-        "value": "{dimension.sm} {dimension.xl}",
-        "description": "You can have multiple values in a single spacing token. Read more on these: https://docs.tokens.studio/available-tokens/spacing-tokens#multi-value-spacing-tokens",
-        "type": "spacing"
-      }
-    },
     "borderRadius": {
       "sm": {
         "value": "4",
@@ -64,11 +11,6 @@
       },
       "xl": {
         "value": "16",
-        "type": "borderRadius"
-      },
-      "multi-value": {
-        "value": "{borderRadius.sm} {borderRadius.lg}",
-        "description": "You can have multiple values in a single radius token. Read more on these: https://docs.tokens.studio/available-tokens/border-radius-tokens#single--multiple-values",
         "type": "borderRadius"
       }
     },
@@ -461,120 +403,6 @@
           "type": "color"
         }
       }
-    },
-    "opacity": {
-      "low": {
-        "value": "10%",
-        "type": "opacity"
-      },
-      "md": {
-        "value": "50%",
-        "type": "opacity"
-      },
-      "high": {
-        "value": "90%",
-        "type": "opacity"
-      }
-    },
-    "fontFamilies": {
-      "heading": {
-        "value": "Inter",
-        "type": "fontFamilies"
-      },
-      "body": {
-        "value": "Roboto",
-        "type": "fontFamilies"
-      }
-    },
-    "lineHeights": {
-      "heading": {
-        "value": "110%",
-        "type": "lineHeights"
-      },
-      "body": {
-        "value": "140%",
-        "type": "lineHeights"
-      }
-    },
-    "letterSpacing": {
-      "default": {
-        "value": "0",
-        "type": "letterSpacing"
-      },
-      "increased": {
-        "value": "150%",
-        "type": "letterSpacing"
-      },
-      "decreased": {
-        "value": "-5%",
-        "type": "letterSpacing"
-      }
-    },
-    "paragraphSpacing": {
-      "h1": {
-        "value": "32",
-        "type": "paragraphSpacing"
-      },
-      "h2": {
-        "value": "26",
-        "type": "paragraphSpacing"
-      }
-    },
-    "fontWeights": {
-      "headingRegular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "headingBold": {
-        "value": "Bold",
-        "type": "fontWeights"
-      },
-      "bodyRegular": {
-        "value": "Regular",
-        "type": "fontWeights"
-      },
-      "bodyBold": {
-        "value": "Bold",
-        "type": "fontWeights"
-      }
-    },
-    "fontSizes": {
-      "h1": {
-        "value": "roundTo({fontSizes.body}*1.25^5)",
-        "type": "fontSizes"
-      },
-      "h2": {
-        "value": "roundTo({fontSizes.body}*1.25^4)",
-        "type": "fontSizes"
-      },
-      "h3": {
-        "value": "roundTo({fontSizes.body}*1.25^3)",
-        "type": "fontSizes"
-      },
-      "h4": {
-        "value": "roundTo({fontSizes.body}*1.25^2)",
-        "type": "fontSizes"
-      },
-      "h5": {
-        "value": "roundTo({fontSizes.body}*1.25^1)",
-        "type": "fontSizes"
-      },
-      "h6": {
-        "value": "{fontSizes.body}",
-        "type": "fontSizes"
-      },
-      "body": {
-        "value": "16",
-        "type": "fontSizes"
-      },
-      "sm": {
-        "value": "{fontSizes.body} * 0.85",
-        "type": "fontSizes"
-      },
-      "xs": {
-        "value": "{fontSizes.body} * 0.65",
-        "type": "fontSizes"
-      }
     }
   },
   "light": {
@@ -627,56 +455,6 @@
       }
     }
   },
-  "dark": {
-    "fg": {
-      "default": {
-        "value": "{colors.white}",
-        "type": "color"
-      },
-      "muted": {
-        "value": "{colors.gray.300}",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "{colors.gray.500}",
-        "type": "color"
-      }
-    },
-    "bg": {
-      "default": {
-        "value": "{colors.gray.900}",
-        "type": "color"
-      },
-      "muted": {
-        "value": "{colors.gray.700}",
-        "type": "color"
-      },
-      "subtle": {
-        "value": "{colors.gray.600}",
-        "type": "color"
-      }
-    },
-    "accent": {
-      "default": {
-        "value": "{colors.indigo.600}",
-        "type": "color"
-      },
-      "onAccent": {
-        "value": "{colors.white}",
-        "type": "color"
-      },
-      "bg": {
-        "value": "{colors.indigo.800}",
-        "type": "color"
-      }
-    },
-    "shadows": {
-      "default": {
-        "value": "rgba({colors.black}, 0.3)",
-        "type": "color"
-      }
-    }
-  },
   "theme": {
     "button": {
       "primary": {
@@ -692,107 +470,12 @@
       "borderRadius": {
         "value": "{borderRadius.lg}",
         "type": "borderRadius"
-      },
-      "borderWidth": {
-        "value": "{dimension.sm}",
-        "type": "borderWidth"
       }
     },
     "card": {
-      "borderRadius": {
-        "value": "{borderRadius.lg}",
-        "type": "borderRadius"
-      },
       "background": {
         "value": "{bg.default}",
         "type": "color"
-      },
-      "padding": {
-        "value": "{dimension.md}",
-        "type": "dimension"
-      }
-    },
-    "boxShadow": {
-      "default": {
-        "value": [
-          {
-            "x": 5,
-            "y": 5,
-            "spread": 3,
-            "color": "rgba({shadows.default}, 0.15)",
-            "blur": 5,
-            "$type": "dropShadow"
-          },
-          {
-            "x": 4,
-            "y": 4,
-            "spread": 6,
-            "color": "#00000033",
-            "blur": 5,
-            "$type": "innerShadow"
-          }
-        ],
-        "type": "boxShadow"
-      }
-    },
-    "typography": {
-      "H1": {
-        "Bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.headingBold}",
-            "lineHeight": "{lineHeights.heading}",
-            "fontSize": "{fontSizes.h1}",
-            "paragraphSpacing": "{paragraphSpacing.h1}",
-            "letterSpacing": "{letterSpacing.decreased}"
-          },
-          "type": "typography"
-        },
-        "Regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.headingRegular}",
-            "lineHeight": "{lineHeights.heading}",
-            "fontSize": "{fontSizes.h1}",
-            "paragraphSpacing": "{paragraphSpacing.h1}",
-            "letterSpacing": "{letterSpacing.decreased}"
-          },
-          "type": "typography"
-        }
-      },
-      "H2": {
-        "Bold": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.headingBold}",
-            "lineHeight": "{lineHeights.heading}",
-            "fontSize": "{fontSizes.h2}",
-            "paragraphSpacing": "{paragraphSpacing.h2}",
-            "letterSpacing": "{letterSpacing.decreased}"
-          },
-          "type": "typography"
-        },
-        "Regular": {
-          "value": {
-            "fontFamily": "{fontFamilies.heading}",
-            "fontWeight": "{fontWeights.headingRegular}",
-            "lineHeight": "{lineHeights.heading}",
-            "fontSize": "{fontSizes.h2}",
-            "paragraphSpacing": "{paragraphSpacing.h2}",
-            "letterSpacing": "{letterSpacing.decreased}"
-          },
-          "type": "typography"
-        }
-      },
-      "Body": {
-        "value": {
-          "fontFamily": "{fontFamilies.body}",
-          "fontWeight": "{fontWeights.bodyRegular}",
-          "lineHeight": "{lineHeights.heading}",
-          "fontSize": "{fontSizes.body}",
-          "paragraphSpacing": "{paragraphSpacing.h2}"
-        },
-        "type": "typography"
       }
     }
   },
@@ -801,7 +484,6 @@
     "tokenSetOrder": [
       "core",
       "light",
-      "dark",
       "theme"
     ]
   }
