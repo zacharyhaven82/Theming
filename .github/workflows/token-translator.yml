@@ -44,38 +44,34 @@ jobs:
 
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
-        working-directory: Sources/
         with:
           find: "public static let tokenSetOrder0 = core"
           replace: " "
-          include: "Sources/Theming/**"
+          include: "Sources/**"
           regex: false
           
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
-        working-directory: Sources/
         with:
           find: "public static let tokenSetOrder1 = light"
           replace: " "
-          include: "Sources/Theming/**"
+          include: "Sources/**"
           regex: false
 
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
-        working-directory: Sources/
         with:
           find: "public static let tokenSetOrder2 = theme"
           replace: " "
-          include: "Sources/Theming/**"
+          include: "Sources/**"
           regex: false
 
       - name: Find and Replace
         uses: jacobtomlinson/gha-find-replace@v3
-        working-directory: Sources/
         with:
           find: "public enum {"
           replace: "public enum StyleDictionaryEnum {"
-          include: "Sources/Theming/**"
+          include: "Sources/**"
           regex: false
       
       - name: Commit changes
