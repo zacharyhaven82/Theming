@@ -10,7 +10,7 @@ import SwiftUI
 import UIKit
 
 @available(iOS 16.0, *)
-protocol ButtonThemeable {
+public protocol ButtonThemeable {
     var backgroundColor: Color { get set }
     var foregroundColor: Color { get set }
     var cornerRadius: CGFloat { get set }
