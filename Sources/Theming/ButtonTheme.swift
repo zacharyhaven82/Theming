@@ -21,4 +21,10 @@ public struct DefaultButtonTheme: ButtonThemeable {
     public var backgroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryBackground)
     public var foregroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryText)
     public var cornerRadius: CGFloat = CGFloat(StyleDictionaryEnum.buttonBorderRadius)
+    
+    public init(backgroundColor: Color, foregroundColor: Color, cornerRadius: CGFloat) {
+        self.backgroundColor = backgroundColor
+        self.foregroundColor = foregroundColor
+        self.cornerRadius = cornerRadius
+    }
 }
