@@ -480,6 +480,16 @@
           "value": "{colors.red.900}",
           "type": "color"
         }
+      },
+      "default": {
+        "background": {
+          "value": "{colors.teal.200}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{colors.purple.900}",
+          "type": "color"
+        }
       }
     },
     "card": {
