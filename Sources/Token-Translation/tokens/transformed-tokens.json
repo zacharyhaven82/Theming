@@ -23,6 +23,16 @@
         "value": "#742a2a",
         "type": "color"
       }
+    },
+    "default": {
+      "background": {
+        "value": "#b2f5ea",
+        "type": "color"
+      },
+      "text": {
+        "value": "#44337a",
+        "type": "color"
+      }
     }
   },
   "card": {
