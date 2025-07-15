@@ -118,7 +118,7 @@ public enum StyleDictionaryEnum {
     public static let fgMuted = UIColor(red: 0.290, green: 0.333, blue: 0.408, alpha: 1)
     public static let fgSubtle = UIColor(red: 0.627, green: 0.682, blue: 0.753, alpha: 1)
     public static let shadowsDefault = UIColor(red: 0.102, green: 0.125, blue: 0.173, alpha: 1)
-     
-     
-     
+    
+    
+    
 }
