@@ -22,9 +22,15 @@ public struct DefaultButtonTheme: ButtonThemeable {
     public var foregroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryText)
     public var cornerRadius: CGFloat = CGFloat(StyleDictionaryEnum.buttonBorderRadius)
     
-    public init(backgroundColor: Color, foregroundColor: Color, cornerRadius: CGFloat) {
+    private init(backgroundColor: Color, foregroundColor: Color, cornerRadius: CGFloat) {
         self.backgroundColor = backgroundColor
         self.foregroundColor = foregroundColor
         self.cornerRadius = cornerRadius
+    }
+    
+    public init() {
+        self.init(backgroundColor: Color(StyleDictionaryEnum.buttonPrimaryBackground),
+                  foregroundColor: Color(StyleDictionaryEnum.buttonPrimaryText),
+                  cornerRadius: CGFloat(StyleDictionaryEnum.buttonBorderRadius))
     }
 }
