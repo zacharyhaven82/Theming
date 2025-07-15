@@ -24,7 +24,7 @@
         "type": "color"
       }
     },
-    "default": {
+    "primary": {
       "background": {
         "value": "#b2f5ea",
         "type": "color"
