@@ -1,6 +1,6 @@
 {
   "button": {
-    "primary": {
+    "brand1": {
       "background": {
         "value": "#ecc94b",
         "type": "color"
@@ -13,6 +13,16 @@
     "borderRadius": {
       "value": 8,
       "type": "borderRadius"
+    },
+    "brand2": {
+      "background": {
+        "value": "#ffffff",
+        "type": "color"
+      },
+      "text": {
+        "value": "#742a2a",
+        "type": "color"
+      }
     }
   },
   "card": {

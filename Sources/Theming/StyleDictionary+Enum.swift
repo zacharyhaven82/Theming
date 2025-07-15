@@ -19,8 +19,10 @@ public enum StyleDictionaryEnum {
     public static let borderRadiusSm = 4
     public static let borderRadiusXl = 16
     public static let buttonBorderRadius = 8
-    public static let buttonPrimaryBackground = UIColor(red: 0.925, green: 0.788, blue: 0.294, alpha: 1)
-    public static let buttonPrimaryText = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
+    public static let buttonBrand1Background = UIColor(red: 0.925, green: 0.788, blue: 0.294, alpha: 1)
+    public static let buttonBrand1Text = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
+    public static let buttonBrand2Background = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let buttonBrand2Text = UIColor(red: 0.455, green: 0.165, blue: 0.165, alpha: 1)
     public static let cardBackground = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorsBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorsBlue100 = UIColor(red: 0.922, green: 0.973, blue: 1.000, alpha: 1)
