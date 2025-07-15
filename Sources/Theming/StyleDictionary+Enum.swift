@@ -10,8 +10,8 @@ import UIKit
 
 public enum StyleDictionaryEnum {
     public static let accentBg = UIColor(red: 0.765, green: 0.855, blue: 0.996, alpha: 1)
-    public static let accentDefault = UIColor(red: 0.498, green: 0.612, blue: 0.961, alpha: 1)
-    public static let accentOnAccent = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let accentDefault = UIColor(red: 0.925, green: 0.788, blue: 0.294, alpha: 1)
+    public static let accentOnAccent = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let bgDefault = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let bgMuted = UIColor(red: 0.969, green: 0.980, blue: 0.988, alpha: 1)
     public static let bgSubtle = UIColor(red: 0.929, green: 0.949, blue: 0.969, alpha: 1)
@@ -19,8 +19,8 @@ public enum StyleDictionaryEnum {
     public static let borderRadiusSm = 4
     public static let borderRadiusXl = 16
     public static let buttonBorderRadius = 8
-    public static let buttonPrimaryBackground = UIColor(red: 0.498, green: 0.612, blue: 0.961, alpha: 1)
-    public static let buttonPrimaryText = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
+    public static let buttonPrimaryBackground = UIColor(red: 0.925, green: 0.788, blue: 0.294, alpha: 1)
+    public static let buttonPrimaryText = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let cardBackground = UIColor(red: 1.000, green: 1.000, blue: 1.000, alpha: 1)
     public static let colorsBlack = UIColor(red: 0.000, green: 0.000, blue: 0.000, alpha: 1)
     public static let colorsBlue100 = UIColor(red: 0.922, green: 0.973, blue: 1.000, alpha: 1)

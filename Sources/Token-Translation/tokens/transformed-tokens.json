@@ -2,11 +2,11 @@
   "button": {
     "primary": {
       "background": {
-        "value": "#7f9cf5",
+        "value": "#ecc94b",
         "type": "color"
       },
       "text": {
-        "value": "#ffffff",
+        "value": "#000000",
         "type": "color"
       }
     },
@@ -51,11 +51,11 @@
   },
   "accent": {
     "default": {
-      "value": "#7f9cf5",
+      "value": "#ecc94b",
       "type": "color"
     },
     "onAccent": {
-      "value": "#ffffff",
+      "value": "#000000",
       "type": "color"
     },
     "bg": {
