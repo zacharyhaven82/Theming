@@ -483,7 +483,7 @@
       },
       "primary": {
         "background": {
-          "value": "{colors.teal.200}",
+          "value": "{colors.orange.600}",
           "type": "color"
         },
         "text": {
