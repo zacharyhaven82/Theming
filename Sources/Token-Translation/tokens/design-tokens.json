@@ -436,11 +436,11 @@
     },
     "accent": {
       "default": {
-        "value": "{colors.indigo.400}",
+        "value": "{colors.yellow.500}",
         "type": "color"
       },
       "onAccent": {
-        "value": "{colors.white}",
+        "value": "{colors.black}",
         "type": "color"
       },
       "bg": {
