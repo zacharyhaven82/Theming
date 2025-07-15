@@ -11,7 +11,7 @@ import UIKit
 
 @available(iOS 16.0, *)
 public struct DefaultButtonTheme {
-    var backgroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryBackground)
-    var foregroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryText)
-    var cornerRadius: CGFloat = CGFloat(StyleDictionaryEnum.buttonBorderRadius)
+    public let backgroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryBackground)
+    public let foregroundColor: Color = Color(StyleDictionaryEnum.buttonPrimaryText)
+    public let cornerRadius: CGFloat = CGFloat(StyleDictionaryEnum.buttonBorderRadius)
 }
