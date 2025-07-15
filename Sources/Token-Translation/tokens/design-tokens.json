@@ -481,7 +481,7 @@
           "type": "color"
         }
       },
-      "default": {
+      "primary": {
         "background": {
           "value": "{colors.teal.200}",
           "type": "color"
