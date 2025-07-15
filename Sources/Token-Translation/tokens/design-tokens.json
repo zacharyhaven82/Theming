@@ -457,7 +457,7 @@
   },
   "theme": {
     "button": {
-      "primary": {
+      "brand1": {
         "background": {
           "value": "{accent.default}",
           "type": "color"
@@ -470,6 +470,16 @@
       "borderRadius": {
         "value": "{borderRadius.lg}",
         "type": "borderRadius"
+      },
+      "brand2": {
+        "background": {
+          "value": "{bg.default}",
+          "type": "color"
+        },
+        "text": {
+          "value": "{colors.red.900}",
+          "type": "color"
+        }
       }
     },
     "card": {
